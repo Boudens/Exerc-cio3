@@ -15,7 +15,7 @@ namespace Exercício3
 
         public override void InformarDescricao()
         {
-            Console.WriteLine($"{titulo}");
+            Console.WriteLine($"{titulo} escrito por {autor}");
         }
     }
 }

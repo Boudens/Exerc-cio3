@@ -8,14 +8,14 @@ namespace Exercício3
     {
         public JogoDigital(double preco, string titulo, string _console) : base(preco, titulo)
         {
-            this.console = console;
+            this.console = _console;
         }
 
         public string console { get; private set; }
 
         public override void InformarDescricao()
         {
-            Console.WriteLine($"{titulo}");
+            Console.WriteLine($"{titulo} para {console}");
         }
     }
 }

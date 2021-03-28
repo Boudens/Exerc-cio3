@@ -23,8 +23,9 @@ namespace Exercício3
 
         public virtual void InformarPreco()
         {
-            Console.WriteLine($"{}");
-            
+            Console.WriteLine($"{preco.ToString("C")}");
+
+
         }
     }
 }
